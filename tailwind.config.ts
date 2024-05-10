@@ -13,7 +13,10 @@ const config: Config = {
         'contrast-green': '#46A31D',
         'second-green': '#1EA358',
         'backgrond-color': '#F8F8F8'
-      }
+      },
+      fontFamily: {
+        custom: ['MinhaFonte', 'times'],
+      },
     },
   },
   plugins: [],

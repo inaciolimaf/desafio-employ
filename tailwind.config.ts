@@ -12,10 +12,11 @@ const config: Config = {
         'primary-green': '#0FFC76',
         'contrast-green': '#46A31D',
         'second-green': '#1EA358',
+        'second-green-hover': '#238E5B',
         'backgrond-color': '#F8F8F8'
       },
       fontFamily: {
-        custom: ['MinhaFonte', 'times'],
+        mont: ['Mont', 'Arial'],
       },
     },
   },

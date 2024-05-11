@@ -15,7 +15,7 @@ export function Header() {
   };
   return (
     <header>
-      <div className="flex gap-1 justify-between items-center w-full h-16 bg-primary-green py-1 px-6">
+      <div className="flex gap-1 justify-between items-center w-full h-16 bg-primary-green py-1 px-2">
         <div>
           <Image className="w-28" src={logo} alt="Logo" />
         </div>
@@ -43,7 +43,7 @@ export function Header() {
             <ButtonLinkMenu name={"PREÇO"} />
             <ButtonLinkMenu name={"DEMONSTRAÇÃO"} />
             <ButtonLinkMenu name={"SOBRE"} />
-            <div className="p-2 border-b-2 border-black">
+            <div className="p-2 border-b-2 border-black flex justify-center">
                 <ButtonVenda />
             </div>
           </div>
